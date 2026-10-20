@@ -1,0 +1,624 @@
+{
+  "data": {
+    "1d": {
+      "timeframe": "1d",
+      "ticker": "GC=F",
+      "downloaded_at": "2026-10-20T05:44:43+00:00",
+      "rows": 4225,
+      "first": "2010-01-04 00:00:00",
+      "last": "2026-10-20 00:00:00",
+      "dropped_rows": 0,
+      "fixed_envelope_rows": 25
+    },
+    "1h": {
+      "timeframe": "1h",
+      "ticker": "GC=F",
+      "downloaded_at": "2026-10-20T05:45:00+00:00",
+      "rows": 13717,
+      "first": "2024-05-29 04:00:00+00:00",
+      "last": "2026-10-20 05:00:00+00:00",
+      "dropped_rows": 0,
+      "fixed_envelope_rows": 0
+    },
+    "15m": {
+      "timeframe": "15m",
+      "ticker": "GC=F",
+      "downloaded_at": "2026-10-20T05:45:01+00:00",
+      "rows": 4487,
+      "first": "2026-08-11 04:00:00+00:00",
+      "last": "2026-10-20 05:30:00+00:00",
+      "dropped_rows": 0,
+      "fixed_envelope_rows": 0
+    }
+  },
+  "journal": {
+    "n_trades": 9,
+    "n_long": 8,
+    "n_short": 1,
+    "win_rate": 1.0,
+    "win_rate_ci95": [
+      0.7008472464490407,
+      1.0
+    ],
+    "avg_planned_rr": 0.9286724273369992,
+    "expectancy_r": 0.9286724273369992,
+    "expectancy_r_net_est": 0.9169296917272347,
+    "breakeven_wr": 0.5184913652655588,
+    "q1_2025_gold_return": 0.1700262453458692,
+    "issues": 7,
+    "verify_first_hit": {
+      "belum tersentuh s.d. tanggal exit": 4,
+      "TP": 4,
+      "SL": 1
+    }
+  },
+  "ichimoku": {
+    "params": {
+      "tenkan": 12,
+      "kijun": 30,
+      "senkou": 60,
+      "displacement": null,
+      "rsi_period": 14,
+      "rsi_delta": 5.0,
+      "cross_window": 1,
+      "atr_period": 14,
+      "atr_method": "sma",
+      "sl_atr": 1.5,
+      "tp_r": 1.0,
+      "trail_atr": null,
+      "allow_long": true,
+      "allow_short": true
+    },
+    "costs": {
+      "spread": 0.3,
+      "slippage": 0.05,
+      "commission_per_lot": 7.0,
+      "contract_size": 100.0,
+      "swap_long_annual_pct": 5.0,
+      "swap_short_annual_pct": 1.0
+    },
+    "risk_pct": 1.0,
+    "timeframes": {
+      "1d": {
+        "ticker": "GC=F",
+        "bars": 4225,
+        "first": "2010-01-04 00:00:00",
+        "last": "2026-10-20 00:00:00",
+        "split": "2021-10-06 00:00:00",
+        "ALL": {
+          "trades": 8,
+          "long_trades": 4,
+          "short_trades": 4,
+          "win_rate": 0.5,
+          "expectancy_r": -0.01563550331719743,
+          "avg_win_r": 0.986301592353036,
+          "avg_loss_r": -1.017572598987431,
+          "payoff": 0.9692690166131517,
+          "profit_factor": 0.9588057541660971,
+          "total_r": -0.12508402653757944,
+          "mae_r_mean": -0.6761481394878086,
+          "mfe_r_mean": 0.751793168316986,
+          "bars_held_mean": 4.0,
+          "p_value_mean_r_gt_0": 0.5158895235191115,
+          "expectancy_ci_low": -0.765764050338382,
+          "expectancy_ci_high": 0.7344148394613419,
+          "start": "2010-01-04 00:00:00",
+          "end": "2026-10-20 00:00:00",
+          "final_equity": 9983.48693555489,
+          "total_return": -0.001651306444510947,
+          "cagr": -9.84197793112429e-05,
+          "max_dd": 0.04257125642554205,
+          "sharpe": -0.01207155021244514,
+          "exp_long": -0.01886843058426041,
+          "exp_short": -0.01240257605013434
+        },
+        "IS 70%": {
+          "trades": 3,
+          "long_trades": 1,
+          "short_trades": 2,
+          "win_rate": 0.0,
+          "expectancy_r": -0.830080590414955,
+          "avg_win_r": null,
+          "avg_loss_r": -0.830080590414955,
+          "payoff": null,
+          "profit_factor": 0.0,
+          "total_r": -2.490241771244865,
+          "mae_r_mean": -0.9023564684506726,
+          "mfe_r_mean": 0.4973238115126546,
+          "bars_held_mean": 4.333333333333333,
+          "p_value_mean_r_gt_0": 0.9761224411495489,
+          "expectancy_ci_low": -1.0278693214422092,
+          "expectancy_ci_high": -0.4538338608806564,
+          "start": "2010-01-04 00:00:00",
+          "end": "2021-10-05 00:00:00",
+          "final_equity": 9752.931954964846,
+          "total_return": -0.024706804503515367,
+          "cagr": -0.0021266986301932134,
+          "max_dd": 0.026186330105415268,
+          "sharpe": -0.3979659881238349,
+          "exp_long": -1.0278693214422092,
+          "exp_short": -0.7311862249013278
+        },
+        "OOS 30%": {
+          "trades": 5,
+          "long_trades": 3,
+          "short_trades": 2,
+          "win_rate": 0.8,
+          "expectancy_r": 0.5873907494134499,
+          "avg_win_r": 0.986301592353036,
+          "avg_loss_r": -1.0082526223448942,
+          "payoff": 0.9782286408134435,
+          "profit_factor": 3.931144326469584,
+          "total_r": 2.9369537470672498,
+          "mae_r_mean": -0.4805978614850773,
+          "mfe_r_mean": 0.9044747823995849,
+          "bars_held_mean": 2.6,
+          "p_value_mean_r_gt_0": 0.10744861426008598,
+          "expectancy_ci_low": -0.21110265831699343,
+          "expectancy_ci_high": 0.9924201160659584,
+          "start": "2021-10-06 00:00:00",
+          "end": "2026-10-20 00:00:00",
+          "final_equity": 10295.53339536343,
+          "total_return": 0.029553339536342982,
+          "cagr": 0.005798227175654258,
+          "max_dd": 0.012645615025907886,
+          "sharpe": 0.7288675423670743,
+          "exp_long": 0.31746519970172254,
+          "exp_short": 0.9922790739810411
+        },
+        "buy_hold": {
+          "return": 2.713697759703318,
+          "cagr": 0.0812714941077235,
+          "max_dd": 0.44363844125895235
+        },
+        "buy_hold_oos": {
+          "return": 1.3559993697630084,
+          "cagr": 0.18543786134025675,
+          "max_dd": 0.24937948049055447
+        }
+      },
+      "1h": {
+        "ticker": "GC=F",
+        "bars": 13717,
+        "first": "2024-05-29 04:00:00+00:00",
+        "last": "2026-10-20 05:00:00+00:00",
+        "split": "2026-02-03 05:00:00+00:00",
+        "ALL": {
+          "trades": 57,
+          "long_trades": 30,
+          "short_trades": 27,
+          "win_rate": 0.631578947368421,
+          "expectancy_r": 0.25263106994761125,
+          "avg_win_r": 0.9890555950781048,
+          "avg_loss_r": -1.0098109731332352,
+          "payoff": 0.9794462739984586,
+          "profit_factor": 1.6380709477375641,
+          "total_r": 14.399970987013841,
+          "mae_r_mean": -0.6317071240719981,
+          "mfe_r_mean": 0.7322588748821551,
+          "bars_held_mean": 4.12280701754386,
+          "p_value_mean_r_gt_0": 0.027457710743916706,
+          "expectancy_ci_low": 0.005266491012145803,
+          "expectancy_ci_high": 0.49753846746047636,
+          "start": "2024-05-29 04:00:00+00:00",
+          "end": "2026-10-20 05:00:00+00:00",
+          "final_equity": 11516.227144279408,
+          "total_return": 0.15162271442794073,
+          "cagr": 0.06076870656637512,
+          "max_dd": 0.04156866401620729,
+          "sharpe": 1.0979873279509031,
+          "exp_long": 0.18596932626906154,
+          "exp_short": 0.3266996740348887
+        },
+        "IS 70%": {
+          "trades": 41,
+          "long_trades": 25,
+          "short_trades": 16,
+          "win_rate": 0.6585365853658537,
+          "expectancy_r": 0.30434504883873376,
+          "avg_win_r": 0.9865095816502628,
+          "avg_loss_r": -1.011257978726358,
+          "payoff": 0.9755271181076218,
+          "profit_factor": 1.8285056166401663,
+          "total_r": 12.478147002388084,
+          "mae_r_mean": -0.6098883029497097,
+          "mfe_r_mean": 0.7288628758108955,
+          "bars_held_mean": 4.097560975609756,
+          "p_value_mean_r_gt_0": 0.024436578648357216,
+          "expectancy_ci_low": 0.011030106219762052,
+          "expectancy_ci_high": 0.5958528540361115,
+          "start": "2024-05-29 04:00:00+00:00",
+          "end": "2026-02-03 04:00:00+00:00",
+          "final_equity": 11306.075076575144,
+          "total_return": 0.1306075076575144,
+          "cagr": 0.07562787048987252,
+          "max_dd": 0.04156866401620729,
+          "sharpe": 1.2981109218305886,
+          "exp_long": 0.26451401913949923,
+          "exp_short": 0.36658103274378767
+        },
+        "OOS 30%": {
+          "trades": 16,
+          "long_trades": 5,
+          "short_trades": 11,
+          "win_rate": 0.5625,
+          "expectancy_r": 0.1201139990391098,
+          "avg_win_r": 0.9966936353616307,
+          "avg_loss_r": -1.0069169619469887,
+          "payoff": 0.9898469020071029,
+          "profit_factor": 1.2627411199257754,
+          "total_r": 1.9218239846257568,
+          "mae_r_mean": -0.6876178531978618,
+          "mfe_r_mean": 0.7409611225022581,
+          "bars_held_mean": 4.1875,
+          "p_value_mean_r_gt_0": 0.3232451053757378,
+          "expectancy_ci_low": -0.38080474710435147,
+          "expectancy_ci_high": 0.620918368459759,
+          "start": "2026-02-03 05:00:00+00:00",
+          "end": "2026-10-20 05:00:00+00:00",
+          "final_equity": 10185.875351331848,
+          "total_return": 0.018587535133184785,
+          "cagr": 0.02631230661175299,
+          "max_dd": 0.039680719093042605,
+          "sharpe": 0.5510134633513238,
+          "exp_long": -0.20675413808312712,
+          "exp_short": 0.26869042500376294
+        },
+        "buy_hold": {
+          "return": 0.759526824007019,
+          "cagr": 0.26633196820227223,
+          "max_dd": 0.29001967447683774
+        },
+        "buy_hold_oos": {
+          "return": -0.1434908962237822,
+          "cagr": -0.19622126296818476,
+          "max_dd": 0.26802507836990597
+        }
+      },
+      "15m": {
+        "ticker": "GC=F",
+        "bars": 4487,
+        "first": "2026-08-11 04:00:00+00:00",
+        "last": "2026-10-20 05:30:00+00:00",
+        "split": "2026-09-29 12:15:00+00:00",
+        "ALL": {
+          "trades": 17,
+          "long_trades": 9,
+          "short_trades": 8,
+          "win_rate": 0.5294117647058824,
+          "expectancy_r": 0.04799155741975012,
+          "avg_win_r": 0.9930277958923658,
+          "avg_loss_r": -1.0151742108619426,
+          "payoff": 0.9781846162632784,
+          "profit_factor": 1.0891255836914386,
+          "total_r": 0.8158564761357521,
+          "mae_r_mean": -0.7355161838035242,
+          "mfe_r_mean": 0.7513140119057531,
+          "bars_held_mean": 5.235294117647059,
+          "p_value_mean_r_gt_0": 0.4252665308440157,
+          "expectancy_ci_low": -0.42486564628203727,
+          "expectancy_ci_high": 0.5206869668820262,
+          "start": "2026-08-11 04:00:00+00:00",
+          "end": "2026-10-20 05:30:00+00:00",
+          "final_equity": 10073.294122001567,
+          "total_return": 0.007329412200156815,
+          "cagr": 0.038804323804388696,
+          "max_dd": 0.03462626590392048,
+          "sharpe": 0.45337607791578904,
+          "exp_long": -0.12329323222957535,
+          "exp_short": 0.24068694577524133
+        },
+        "IS 70%": {
+          "trades": 12,
+          "long_trades": 7,
+          "short_trades": 5,
+          "win_rate": 0.5833333333333334,
+          "expectancy_r": 0.15708253796001256,
+          "avg_win_r": 0.9930840515456205,
+          "avg_loss_r": -1.0133195810598383,
+          "payoff": 0.9800304564399581,
+          "profit_factor": 1.3594093020438525,
+          "total_r": 1.8849904555201507,
+          "mae_r_mean": -0.6653870825183513,
+          "mfe_r_mean": 0.7408405050164184,
+          "bars_held_mean": 3.4166666666666665,
+          "p_value_mean_r_gt_0": 0.3044343949616681,
+          "expectancy_ci_low": -0.34613793295343037,
+          "expectancy_ci_high": 0.6593159992189943,
+          "start": "2026-08-11 04:00:00+00:00",
+          "end": "2026-09-29 12:00:00+00:00",
+          "final_equity": 10184.160622338426,
+          "total_return": 0.01841606223384251,
+          "cagr": 0.14465927092618758,
+          "max_dd": 0.01799822526029926,
+          "sharpe": 1.641840038188752,
+          "exp_long": 0.1321137219105408,
+          "exp_short": 0.19203888042927303
+        },
+        "OOS 30%": {
+          "trades": 5,
+          "long_trades": 2,
+          "short_trades": 3,
+          "win_rate": 0.4,
+          "expectancy_r": -0.21382679587687958,
+          "avg_win_r": 0.9928309011059753,
+          "avg_loss_r": -1.018265260532116,
+          "payoff": 0.9750218725788116,
+          "profit_factor": 0.6423326842703502,
+          "total_r": -1.069133979384398,
+          "mae_r_mean": -0.9038260268879394,
+          "mfe_r_mean": 0.7764504284401565,
+          "bars_held_mean": 9.6,
+          "p_value_mean_r_gt_0": 0.6566853593258646,
+          "expectancy_ci_low": -1.0187261044185834,
+          "expectancy_ci_high": 0.5909725002672628,
+          "start": "2026-09-29 12:15:00+00:00",
+          "end": "2026-10-20 05:30:00+00:00",
+          "final_equity": 9891.13830344184,
+          "total_return": -0.010886169655816014,
+          "cagr": -0.17548840785988062,
+          "max_dd": 0.028285555691367703,
+          "sharpe": -1.7202320676217502,
+          "exp_long": -1.0172175717199816,
+          "exp_short": 0.3217670546851885
+        },
+        "buy_hold": {
+          "return": -0.0721327270992862,
+          "cagr": -0.3231425900547422,
+          "max_dd": 0.13773071143566595
+        },
+        "buy_hold_oos": {
+          "return": -0.008598041557200897,
+          "cagr": -0.1412091830018185,
+          "max_dd": 0.035615151361203745
+        }
+      }
+    },
+    "null": {
+      "1d_random": {
+        "mean": -0.022460199330437663,
+        "p95": 0.5163554764159586,
+        "p_emp": 0.4471057884231537,
+        "obs": -0.01563550331719743,
+        "n": 8
+      },
+      "1d_long": {
+        "mean": 0.06656758623659138,
+        "p95": 0.6884458088324731,
+        "p_emp": 0.5568862275449101,
+        "obs": -0.01563550331719743,
+        "n": 8
+      },
+      "1h_random": {
+        "mean": -0.044370884653301516,
+        "p95": 0.2077295327346206,
+        "p_emp": 0.027944111776447105,
+        "obs": 0.25263106994761125,
+        "n": 57
+      },
+      "1h_long": {
+        "mean": -0.0012679923746713674,
+        "p95": 0.19984580820523834,
+        "p_emp": 0.017964071856287425,
+        "obs": 0.25263106994761125,
+        "n": 57
+      }
+    },
+    "grid": {
+      "ichimoku_1h_spearman_is_oos": 0.22538461538461538,
+      "ichimoku_1h_cells": 25,
+      "rsi_sl_1h_spearman_is_oos": 0.4323529411764706,
+      "rsi_sl_1h_cells": 16,
+      "ichimoku_1h_share_oos_positive": 0.36,
+      "ichimoku_1h_share_is_positive": 0.72,
+      "ichimoku_1d_share_positive": 0.48,
+      "ichimoku_1d_median_trades": 14.0,
+      "best_is_1h": "ichi(12,22,44) dRSI>5 SL1.5ATR TP1R",
+      "best_is_1h_is_exp": 0.3208050089383382,
+      "best_is_1h_oos_exp": 0.08562067536396935,
+      "best_is_1h_oos_trades": 11
+    },
+    "walk_forward": {
+      "1h": {
+        "desc": "6 bulan latih / 2 bulan uji",
+        "windows": 12,
+        "oos_trades": 68,
+        "oos_expectancy_r": 0.40735413344390187,
+        "oos_win_rate": 0.4852941176470588,
+        "oos_p_value": 0.012671505664250382,
+        "oos_ci": [
+          0.06591054095586336,
+          0.7581965961061196
+        ],
+        "oos_max_dd_1pct": 0.05926304403144689
+      },
+      "1d": {
+        "desc": "4 tahun latih / 1 tahun uji",
+        "windows": 13,
+        "oos_trades": 26,
+        "oos_expectancy_r": 0.12328997342258206,
+        "oos_win_rate": 0.4230769230769231,
+        "oos_p_value": 0.3334447596515889,
+        "oos_ci": [
+          -0.3948432613075572,
+          0.6863797365970542
+        ],
+        "oos_max_dd_1pct": 0.06060785730603013
+      }
+    },
+    "trailing": {
+      "1h|A. Baseline: SL 1.5 ATR, TP 1R|IS": {
+        "trades": 41,
+        "expectancy_r": 0.30434504883873376,
+        "win_rate": 0.6585365853658537,
+        "max_dd": 0.04156866401620729,
+        "profit_factor": 1.8285056166401663
+      },
+      "1h|A. Baseline: SL 1.5 ATR, TP 1R|OOS": {
+        "trades": 16,
+        "expectancy_r": 0.1201139990391098,
+        "win_rate": 0.5625,
+        "max_dd": 0.039680719093042605,
+        "profit_factor": 1.2627411199257754
+      },
+      "1h|B. Trailing 1.5 ATR, tanpa TP|IS": {
+        "trades": 41,
+        "expectancy_r": 0.5187917320031826,
+        "win_rate": 0.4878048780487805,
+        "max_dd": 0.04564939414911695,
+        "profit_factor": 2.385938242054727
+      },
+      "1h|B. Trailing 1.5 ATR, tanpa TP|OOS": {
+        "trades": 16,
+        "expectancy_r": 0.2788096608551697,
+        "win_rate": 0.4375,
+        "max_dd": 0.04961830787506483,
+        "profit_factor": 1.583560184171043
+      },
+      "1h|C. Trailing 2 ATR, tanpa TP|IS": {
+        "trades": 41,
+        "expectancy_r": 0.4127813428011464,
+        "win_rate": 0.43902439024390244,
+        "max_dd": 0.04971783629714277,
+        "profit_factor": 1.9065442622265572
+      },
+      "1h|C. Trailing 2 ATR, tanpa TP|OOS": {
+        "trades": 16,
+        "expectancy_r": 0.45521443122522437,
+        "win_rate": 0.5,
+        "max_dd": 0.05435107520118987,
+        "profit_factor": 1.9131182174839547
+      },
+      "1h|D. Trailing 3 ATR, tanpa TP|IS": {
+        "trades": 40,
+        "expectancy_r": 0.5190367876476567,
+        "win_rate": 0.425,
+        "max_dd": 0.0741345840496137,
+        "profit_factor": 1.9038616681790352
+      },
+      "1h|D. Trailing 3 ATR, tanpa TP|OOS": {
+        "trades": 15,
+        "expectancy_r": 0.224146314414151,
+        "win_rate": 0.4,
+        "max_dd": 0.06745252049364925,
+        "profit_factor": 1.3931264647366581
+      },
+      "1h|E. Trailing 2 ATR + TP 2R|IS": {
+        "trades": 41,
+        "expectancy_r": 0.438241799327432,
+        "win_rate": 0.43902439024390244,
+        "max_dd": 0.03967210192685511,
+        "profit_factor": 1.9915412804306152
+      },
+      "1h|E. Trailing 2 ATR + TP 2R|OOS": {
+        "trades": 16,
+        "expectancy_r": 0.4037251397190932,
+        "win_rate": 0.5,
+        "max_dd": 0.039680719093042494,
+        "profit_factor": 1.8048234417161353
+      },
+      "1d|A. Baseline: SL 1.5 ATR, TP 1R|IS": {
+        "trades": 3,
+        "expectancy_r": -0.830080590414955,
+        "win_rate": 0.0,
+        "max_dd": 0.026186330105415268,
+        "profit_factor": 0.0
+      },
+      "1d|A. Baseline: SL 1.5 ATR, TP 1R|OOS": {
+        "trades": 5,
+        "expectancy_r": 0.5873907494134499,
+        "win_rate": 0.8,
+        "max_dd": 0.012645615025907886,
+        "profit_factor": 3.931144326469584
+      },
+      "1d|B. Trailing 1.5 ATR, tanpa TP|IS": {
+        "trades": 3,
+        "expectancy_r": -0.743574535295898,
+        "win_rate": 0.0,
+        "max_dd": 0.02215018666161428,
+        "profit_factor": 0.0
+      },
+      "1d|B. Trailing 1.5 ATR, tanpa TP|OOS": {
+        "trades": 5,
+        "expectancy_r": 0.5161752378509943,
+        "win_rate": 0.4,
+        "max_dd": 0.013724224268876095,
+        "profit_factor": 3.0826047300823296
+      },
+      "1d|C. Trailing 2 ATR, tanpa TP|IS": {
+        "trades": 3,
+        "expectancy_r": -0.830080590414955,
+        "win_rate": 0.0,
+        "max_dd": 0.026186330105415268,
+        "profit_factor": 0.0
+      },
+      "1d|C. Trailing 2 ATR, tanpa TP|OOS": {
+        "trades": 5,
+        "expectancy_r": 1.1857555612174606,
+        "win_rate": 0.4,
+        "max_dd": 0.0383031646430102,
+        "profit_factor": 3.9353765649026378
+      },
+      "1d|D. Trailing 3 ATR, tanpa TP|IS": {
+        "trades": 3,
+        "expectancy_r": -0.830080590414955,
+        "win_rate": 0.0,
+        "max_dd": 0.026186330105415268,
+        "profit_factor": 0.0
+      },
+      "1d|D. Trailing 3 ATR, tanpa TP|OOS": {
+        "trades": 5,
+        "expectancy_r": 0.7864423899061448,
+        "win_rate": 0.4,
+        "max_dd": 0.05582542525963752,
+        "profit_factor": 2.1892544402982
+      },
+      "1d|E. Trailing 2 ATR + TP 2R|IS": {
+        "trades": 3,
+        "expectancy_r": -0.830080590414955,
+        "win_rate": 0.0,
+        "max_dd": 0.026186330105415268,
+        "profit_factor": 0.0
+      },
+      "1d|E. Trailing 2 ATR + TP 2R|OOS": {
+        "trades": 5,
+        "expectancy_r": 0.8924581032272141,
+        "win_rate": 0.6,
+        "max_dd": 0.014354445855391695,
+        "profit_factor": 3.98256705526171
+      }
+    },
+    "monte_carlo_1h_1pct": {
+      "n_trades": 57,
+      "n_sims": 10000,
+      "risk_pct": 1.0,
+      "dd_median": 0.04058131334920695,
+      "dd_95": 0.07988173357796183,
+      "dd_99": 0.10603851499891095,
+      "historical_dd": 0.039906624314125505,
+      "return_median": 0.15193112479692716,
+      "return_p05": 0.021000340463944635,
+      "p_loss": 0.0256
+    },
+    "risk_pct_for_dd95_15pct": 2.0,
+    "median_sl_usd": {
+      "1d": 37.47856358119422,
+      "1h": 18.13926478794643,
+      "15m": 10.521449497767858
+    },
+    "configs_tested": 147,
+    "verdict": {
+      "criteria": {
+        "OOS 1h: batas bawah CI95 expectancy > 0": false,
+        "Walk-forward 1h: expectancy OOS > 0 dengan p < 0.05": true,
+        "Mengalahkan 95% entry acak (1h)": true,
+        "Mengalahkan 95% entry acak long-only (1h)": true,
+        "Harian 2010-sekarang: >= 30 trade dan expectancy > 0": false,
+        "Peringkat IS dan OOS di grid berkorelasi positif (Spearman > 0.3)": false
+      },
+      "passed": 3,
+      "total": 6,
+      "edge_proven": false
+    }
+  }
+}
