@@ -162,20 +162,20 @@ def verify_with_prices(df: pd.DataFrame, bars: pd.DataFrame) -> pd.DataFrame:
     for _, t in df.iterrows():
         win = b[(b.index >= t["entry_date"]) & (b.index < t["exit_date"] + one)]
         if not len(win) or not np.isfinite(basis):
-            hits.append("no data")
+            hits.append("tidak ada data")
             continue
         d = t["direction"]
         entry_f, tp, sl = t["entry"] + basis, t["tp"] + basis, t["sl"] + basis
         touched = np.flatnonzero((win["low"].to_numpy() <= entry_f) & (win["high"].to_numpy() >= entry_f))
         if not len(touched):
-            hits.append("entry not reached")
+            hits.append("harga entry tidak tercapai")
             continue
-        verdict = "neither (still open at exit date)"
+        verdict = "belum tersentuh s.d. tanggal exit"
         for _, bar in win.iloc[touched[0]:].iterrows():
             tp_hit = bar["high"] >= tp if d == 1 else bar["low"] <= tp
             sl_hit = bar["low"] <= sl if d == 1 else bar["high"] >= sl
             if tp_hit and sl_hit:
-                verdict = "ambiguous"
+                verdict = "ambigu"
                 break
             if tp_hit or sl_hit:
                 verdict = "TP" if tp_hit else "SL"
